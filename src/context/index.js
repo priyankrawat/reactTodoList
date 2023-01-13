@@ -6,7 +6,7 @@ import {
 
 import { 
   SelectedProjectContext,
-  SelectedProjectProvider,  
+  SelectedProjectProvider,   
   useSelectedProjectValue,
 } from './selected-project-context';
  
