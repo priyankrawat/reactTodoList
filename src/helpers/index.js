@@ -11,7 +11,7 @@ export const collatedTasksExist = selectedProject =>
 
 export const generatePushId = (() => { 
   const PUSH_CHARS =
-    '-0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz';
+    '-0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz'; 
 
   const lastRandChars = [];
 
