@@ -9,7 +9,7 @@ export const getCollatedTitle = (projects, key) =>
 export const collatedTasksExist = selectedProject => 
   collatedTasks.find(task => task.key === selectedProject);
 
-export const generatePushId = (() => {
+export const generatePushId = (() => { 
   const PUSH_CHARS =
     '-0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz';
 
