@@ -9,7 +9,7 @@ export const useTasks = selectedProject => {
   const [archivedTasks, setArchivedTasks] = useState([]); 
 
   useEffect(() => { 
-    let unsubscribe = firebase
+    let unsubscribe = firebase 
       .firestore()
       .collection('tasks')
       .where('userId', '==', 'qwerty');
